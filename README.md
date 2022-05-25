@@ -1,71 +1,38 @@
-# Getting Started with Create React App
+# Entregable Parcial2 - Fecth API
+![GitHub code size](https://img.shields.io/github/repo-size/otanerocram/pw2_parcial)
+![GitHub repo stars](https://img.shields.io/github/stars/otanerocram/pw2_parcial)
+![GitHub repo forks](https://img.shields.io/github/forks/otanerocram/pw2_parcial)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción: 
+Esta app se conecta a una API y trae data de forma paginada
+Curso: Programación Web II - ISIL
 
-## Available Scripts
+## Alumno: 
+- Beltrán, Marco
 
-In the project directory, you can run:
+### Míralo en Acción:
+[Code SandBox!](https://githubbox.com/otanerocram/pw2_parcial)
 
-### `npm start`
+## Instalación:
+Clone el repositorio y/o descargue el código, luego ejecute `npm install` para instalar las dependencias, luego ejecute el programa con el comando: `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Uso: 
+Comentarios acerca del uso del programa
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Roadmap: 
+> First Release: Only basic code
+> 
+> Whats Next -> Connecting a database
 
-### `npm test`
+## Changelog:
+Done: 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License info: 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### `npm run build`
+## Support: 
+Si necesitas ayuda sobre este código siéntete libre de enviarme un email a ocram@beltren.dev.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# pw2_parcial
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/otanerocram)
