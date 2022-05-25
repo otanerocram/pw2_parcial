@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Row, Col, Card, Table, Container, Pagination, Spinner } from "react-bootstrap";
 
 function App() {
-    const endpoint_url = process.env.REACT_APP_API_URL;
+    const endpoint_url = process.env.REACT_APP_API_URL || "https://randomuser.me/api/";
     const [persons, setPersons] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [page, setPage] = useState({
