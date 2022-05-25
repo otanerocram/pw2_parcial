@@ -11,7 +11,7 @@ function App() {
     });
 
     const getPersons = async (number, size) => {
-        const response = await fetch(`${endpoint_url}?page=${number + 1}&results=${size}`);
+        const response = await fetch(`${endpoint_url}?page=${number + 1}&results=${size}&seed=abc`);
         const data = await response.json();
         setPersons(data.results);
         setIsLoading(false);
