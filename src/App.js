@@ -22,6 +22,7 @@ function App() {
         plus = action === "next" ? 1 : -1;
         setIsLoading(true);
 
+        // Agrego un timeout para hacer un efecto de carga ya que el api responde rapido y no se aprecia el texto Loading...
         setTimeout(() => {
             setPage((prev) => ({
                 number: prev.number + plus,
@@ -44,7 +45,7 @@ function App() {
                             {isLoading ? (
                                 <Loading />
                             ) : (
-                                <Table striped bordered hover style={isLoading ? { opacity: "0.5" } : { opacity: 1 }}>
+                                <Table striped bordered hover style={isLoading && { opacity: "0.5" }}>
                                     <thead>
                                         <tr>
                                             <th>#</th>
