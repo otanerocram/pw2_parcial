@@ -33,6 +33,7 @@ function App() {
 
     useEffect(() => {
         getPersons(page.number, page.size);
+        // eslint-disable-next-line
     }, [page]);
 
     return (
@@ -45,7 +46,7 @@ function App() {
                             {isLoading ? (
                                 <Loading />
                             ) : (
-                                <Table striped bordered hover style={isLoading && { opacity: "0.5" }}>
+                                <Table striped bordered hover style={isLoading ? { opacity: "0.5" } : { opacity: 1 }}>
                                     <thead>
                                         <tr>
                                             <th>#</th>
@@ -68,7 +69,7 @@ function App() {
                                                     <td>
                                                         <img
                                                             className="profile-pic"
-                                                            src={el.picture.thumbnail}
+                                                            src={el.picture.medium}
                                                             alt="thumbnail"
                                                         />
                                                     </td>
